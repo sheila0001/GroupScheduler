@@ -1,4 +1,4 @@
-import helpers as h
+#import helpers as h
 from timerange import TimeRange
 from dataclasses import dataclass, field
 
@@ -11,6 +11,8 @@ class Friend:
     def add_busy_range(self, obj:TimeRange):
         self.busy_time_ranges.append(obj)
 
-f1 = Friend("Jim")
-f1.add_busy_range(TimeRange(start_time="09:00", end_time="17:00"))
-print(f1)
+    def __repr__(self):
+        return (
+            f"Friend(name='{self.name}', "
+            f"busy_time_ranges={self.busy_time_ranges})"
+        )
