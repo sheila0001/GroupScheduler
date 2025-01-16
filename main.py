@@ -1,12 +1,13 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 @dataclass
 class TimeRange:
     start_time : str
     end_time: str
 
-    start_minutes : int
-    
+    start_minutes : int = field(init=False)
+    start_minutes : int = field(init=False)
+
 
 
 
