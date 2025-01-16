@@ -1,2 +1,2 @@
 # GroupScheduler
-GroupScheduler is a Python-powered tool I built to make it easier for my friends and me to find common time slots for hanging out or working on group projects. 
+Group Availability Scheduler is a Python-powered tool I built to make it easier for my friends and me to find common time slots for hanging out or working on group projects. It takes our schedules in simple formats like JSON or CSV, uses Python libraries like datetime and pandas to process them, and quickly figures out when we’re all free. While it’s currently just for us, I plan to expand it into a web-based platform so others can easily coordinate their schedules too.
