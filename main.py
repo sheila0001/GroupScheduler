@@ -1,19 +1,18 @@
-import helpers as h
-from dataclasses import dataclass, field
+from timerange import TimeRange
+from friend import Friend
 
-@dataclass
-class TimeRange:
-    start_time : str
-    end_time: str
+def main():
+    f1 = Friend("Jane")
+    f1.add_busy_range(TimeRange(start_time="08:00", end_time="10:00")) # from 480 until 600 min, Jane is not available
+    f2=Friend("Chris")
+    f2.add_busy_range(TimeRange(start_time="12:00", end_time="14:00"))
 
-    start_minutes : int = field(init=False, repr=False)
-    start_minutes : int = field(init=False, repr=False)
-
-    def __post_init__(self):
-        self.start_minutes = h.timerange_to_minutes(self.start_time)
-        self.end_minutes = h.timerange_to_minutes(self.end_time)
+    for i in range(1440):
+        print(i)
 
 
 
-t1 = TimeRange(start_time="00:30", end_time="05:00")
-print(t1)
+
+
+
+if __name__ == "__main":
