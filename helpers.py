@@ -10,7 +10,6 @@ def timerange_to_minutes(t_str):
 
     return hour_to_minutes + minutes
 
-print(timerange_to_minutes("20:18"))
 
 
 
