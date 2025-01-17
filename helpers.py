@@ -29,6 +29,8 @@ def prettify_available_minutes():
             list_resettable.clear() # Clear the temporary list to start a new group.
             list_resettable.append(element) #Add the current number to the new group.
 
+    #add the rest of the smalled lists in grouped_list
+    grouped_list.append(list_resettable)
     print(grouped_list)
 
 prettify_available_minutes()
