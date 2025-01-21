@@ -1,6 +1,6 @@
 
 
-def timerange_to_minutes(t_str):...
+def timerange_to_minutes(t_str):
 
 def minutes_to_timerange_str(m):
 
