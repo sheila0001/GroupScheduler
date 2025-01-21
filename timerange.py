@@ -1,5 +1,6 @@
-from dataclasses import dataclass, field
 import helpers as h
+from dataclasses import dataclass, field
+
 @dataclass
 class TimeRange:
     start_time: str
