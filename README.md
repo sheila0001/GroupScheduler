@@ -1,6 +1,6 @@
 GroupScheduler
 
-GroupScheduler is a Python tool I built to make it easier for groups to find free time together—whether it’s for meetings, hangouts, or team projects. It takes everyone’s busy schedules, figures out when you’re all available, and spits out readable time slots like "08:00 - 10:00".
+GroupScheduler is a Python tool I built to make it easier for my friends and I or groups to find free time together—whether it’s for meetings, hangouts, or team projects. It takes everyone’s busy schedules, figures out when you’re all available, and render readable time slots like "08:00 - 10:00".
 
 What It Does
 
@@ -30,4 +30,4 @@ Clone the repo.
 
 Run main.py to enter schedules and see when everyone’s free.
 
-That’s it—simple and effective!
+That’s it—simple!
