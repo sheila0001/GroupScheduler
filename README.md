@@ -30,4 +30,4 @@ Clone the repo.
 
 Run main.py to enter schedules and see when everyone’s free.
 
-That’s it—simple!
+That’s it!
